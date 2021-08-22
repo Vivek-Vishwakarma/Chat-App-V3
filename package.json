@@ -1,0 +1,17 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "My Chat App",
+  "main": "script.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "V3",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^4.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 97vh;
+    width:100vw;
+    background: url('images/endless-constellation.svg');
+
+    overflow: hidden;
+}
+.message-box{
+    background : transparent;
+    height: 80vh;
+    width: 70vw;
+    border: 1px solid whitesmoke;
+    margin: 10px auto;
+    overflow-y: scroll;
+    background: black;
+}
+.message-box::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+.send-box{
+    width: 70vw;
+    margin: 10px auto;
+}
+.input{
+    width: 90%;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 30px;
+}
+.input:focus{
+    outline: none;
+}
+.btn{
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+.btn:focus{
+    outline: none;
+}
+.inner{
+    color: white;
+    font-size: 23px;
+    padding: 0px 10px;
+    opacity: 1 !important;
+    z-index: 100;
+    margin-top: 10px;
+}
+.logo{
+    height: 45px;
+    width: 45px;
+    margin: 5px auto;
+
+}
+.img{
+    font-size: 50px;
+    color: white;
+}
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+.middle{
+    text-align: center;
+}
